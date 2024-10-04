@@ -1,10 +1,8 @@
 main > section:last-child {
+  justify-content: center;
   padding: 1rem;
   text-align: center;
   background-color: #c4c0bb;
-}
-
-main > section:last-child {
   margin-top: 2rem;
   min-height: 50vh;
 }
