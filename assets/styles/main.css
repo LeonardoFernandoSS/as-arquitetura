@@ -83,7 +83,6 @@ main {
 main section {
   padding: 1rem;
   padding-top: calc(70px + 2rem);
-  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
