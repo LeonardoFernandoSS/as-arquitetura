@@ -1,0 +1,42 @@
+main > section:first-child > .input-button {
+  margin: 3rem 0;
+  width: 100%;
+}
+
+#projects {
+  padding-top: 2rem;
+}
+
+#projects-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+#projects-list a {
+  color: #333333;
+  text-decoration: none;
+}
+
+#projects-list figure {
+  background-color: #c4c0bb;
+  border-radius: 5px;
+  width: auto;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+
+#projects-list figcaption {
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#projects-list figcaption h3 {
+  font-size: medium;
+}

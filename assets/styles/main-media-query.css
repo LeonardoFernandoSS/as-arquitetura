@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 640px) {
+  header button {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+    font-size: small;
+    align-items: center;
+  }
+
+  main > section:first-child {
+    min-height: calc(100vh - 70px);
+  }
+
+  nav.mobile-nav {
+    display: none;
+  }
+
+  main section {
+    min-height: 0;
+  }
+
+  h2,
+  h3 {
+    font-size: medium;
+  }
+
+  h2 small,
+  h3 small {
+    font-weight: 400;
+    font-size: small;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  .button {
+    font-size: small;
+    width: fit-content;
+  }
+
+  form .button {
+    width: 100%;
+  }
+
+  fieldset {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    align-items: start;
+  }
+
+  footer > div:first-child {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  footer > div:last-child {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 2rem;
+  }
+
+  header a {
+    font-size: small;
+  }
+
+  main > section:first-child {
+    min-height: 40vh;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+
+  h2,
+  h3 {
+    font-size: medium;
+  }
+
+  h2 small,
+  h3 small {
+    font-weight: 400;
+    font-size: small;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  .button {
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main section {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    gap: 1rem;
+  }
+
+  main > section:first-child {
+    min-height: 50vh;
+  }
+
+  h2,
+  h3 {
+    font-size: medium;
+  }
+
+  h2 small,
+  h3 small {
+    font-weight: 400;
+    font-size: small;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  .button {
+    font-size: medium;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  header {
+    padding: 0 4rem;
+  }
+
+  main section {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    gap: 2rem;
+  }
+
+  main > section:first-child {
+    min-height: 75vh;
+  }
+
+  main > section:first-child p {
+    font-size: large;
+  }
+
+  h2,
+  h3 {
+    font-size: large;
+  }
+
+  h2 small,
+  h3 small {
+    font-weight: 400;
+    font-size: medium;
+  }
+
+  form .button {
+    position: relative;
+    width: fit-content;
+    right: 0;
+  }
+
+  .pagination {
+    justify-content: flex-end;
+  }
+
+  footer {
+    grid-template-columns: 1fr 2fr 2fr;
+    padding: 2rem 4rem;
+  }
+}

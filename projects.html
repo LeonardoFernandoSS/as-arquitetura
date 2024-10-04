@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ana Sales Arquitetura</title>
+
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/main-media-query.css" />
+    <link rel="stylesheet" href="assets/styles/projects.css" />
+    <link rel="stylesheet" href="assets/styles/projects-media-query.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html#">
+        Logo
+        <!-- <img src="assets/images/logo.png" alt="logo" /> -->
+      </a>
+      <button>
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </button>
+      <nav>
+        <a href="index.html#services">Serviços</a>
+        <a href="index.html#projects">Projetos</a>
+        <a href="index.html#about">Sobre</a>
+        <a href="index.html#contact">Contato</a>
+      </nav>
+    </header>
+
+    <nav class="mobile-nav">
+      <a href="index.html#services">Serviços</a>
+      <a href="index.html#projects">Projetos</a>
+      <a href="index.html#about">Sobre</a>
+      <a href="index.html#contact">Contato</a>
+    </nav>
+
+    <main>
+      <section>
+        <h1>A.S <small>| Arquitetura de Interiores</small></h1>
+        <p>Conheça nossos projetos</p>
+        <div class="input-button">
+          <input type="text" placeholder="Buscar projeto..." />
+          <button class="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </section>
+      <section id="projects">
+        <details>
+          <summary>Filtrar por:</summary>
+          <form action="">
+            <fieldset class="form-item">
+              <legend>Tipo de Serviço:</legend>
+              <label>
+                <input type="checkbox" />
+                <span>Projetos de Interiores</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Consultoria</span>
+              </label>
+            </fieldset>
+
+            <fieldset class="form-item">
+              <legend>Area Maxima</legend>
+              <input type="number" placeholder="Largura em Metros" />
+              <input type="number" placeholder="Comprimento em Metros" />
+            </fieldset>
+
+            <fieldset class="form-item">
+              <legend>Area Minima</legend>
+              <input type="number" placeholder="Largura em Metros" />
+              <input type="number" placeholder="Comprimento em Metros" />
+            </fieldset>
+
+            <button class="button">
+              <i class="fa-solid fa-filter"></i>Filtrar
+            </button>
+          </form>
+        </details>
+
+        <div id="projects-list">
+          <a href="project.html">
+            <figure>
+              <!-- <img src="assets/images/logo.png" alt="logo" srcset="" /> -->
+              <figcaption>
+                <h3>
+                  Quarto para trabalhar e jogar 1<br /><small>7m x 30m</small>
+                </h3>
+              </figcaption>
+            </figure>
+          </a>
+          <a href="project.html">
+            <figure>
+              <!-- <img src="assets/images/logo.png" alt="logo" srcset="" /> -->
+              <figcaption>
+                <h3>
+                  Quarto para trabalhar e jogar 1<br /><small>7m x 30m</small>
+                </h3>
+              </figcaption>
+            </figure>
+          </a>
+          <a href="project.html">
+            <figure>
+              <!-- <img src="assets/images/logo.png" alt="logo" srcset="" /> -->
+              <figcaption>
+                <h3>
+                  Quarto para trabalhar e jogar 1<br /><small>7m x 30m</small>
+                </h3>
+              </figcaption>
+            </figure>
+          </a>
+          <a href="project.html">
+            <figure>
+              <!-- <img src="assets/images/logo.png" alt="logo" srcset="" /> -->
+              <figcaption>
+                <h3>
+                  Quarto para trabalhar e jogar 1<br /><small>7m x 30m</small>
+                </h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="pagination">
+          <button class="button"><i class="fa-solid fa-caret-left"></i></button>
+          <button class="button">2</button>
+          <button class="button">3</button>
+          <button class="button">4</button>
+          <button class="button">5</button>
+          <button class="button">
+            <i class="fa-solid fa-caret-right"></i>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <a href="#">
+          Logo
+          <!-- <img src="assets/images/logo.png" alt="logo" /> -->
+        </a>
+        <div>
+          <a href="#" alt="link o meu WhatsApp">
+            <i class="fa-brands fa-instagram fa-xl"></i>
+          </a>
+          <a href="#" alt="link o meu Instagram">
+            <i class="fa-brands fa-whatsapp fa-xl"></i>
+          </a>
+        </div>
+      </div>
+      <div>
+        <p>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Itapeininga - SP</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          <span>+55 (00) 00000-0000</span>
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <span>examplo@email.com.br</span>
+        </p>
+      </div>
+      <div>
+        <p>
+          &copy; 2024 Ana Sales | Arquitetura de interiores. Todos os direitos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/df973adc9a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
