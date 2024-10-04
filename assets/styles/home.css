@@ -1,13 +1,7 @@
-main > section:first-child,
 main > section:last-child {
   padding: 1rem;
   text-align: center;
   background-color: #c4c0bb;
-}
-
-main > section:first-child {
-  min-height: calc(100vh - 70px);
-  gap: 0;
 }
 
 main > section:last-child {

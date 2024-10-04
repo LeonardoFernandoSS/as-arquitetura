@@ -3,7 +3,7 @@
 @media only screen and (min-width: 640px) {
   main > section:last-child {
     align-items: center;
-    min-height: 30vh;
+    min-height: 50vh;
   }
 
   #services-list {
