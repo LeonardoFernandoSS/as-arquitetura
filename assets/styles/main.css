@@ -19,7 +19,9 @@ body {
 }
 
 header {
-  position: fixed;
+  position: sticky;
+  left: 0;
+  top: 0;
   padding: 0 1rem;
   width: 100vw;
   height: 70px;
@@ -76,7 +78,6 @@ nav:hover {
 }
 
 main {
-  padding-top: 70px;
   flex-grow: 1;
 }
 
