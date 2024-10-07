@@ -15,19 +15,6 @@
     display: block;
   }
 
-  #gallery-list {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  #color-palette-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #color-palette-list figure {
-    border: 1px solid #c4c0bb !important;
-  }
-
   #floor-plan-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,6 +23,10 @@
 
   #floor-plan figure {
     flex-basis: 0.5fr;
+  }
+
+  #gallery-list {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
