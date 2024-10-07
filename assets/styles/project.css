@@ -50,18 +50,6 @@ ul span {
   display: none;
 }
 
-#gallery-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-#gallery-list figure {
-  background-color: #c4c0bb;
-  border-radius: 5px;
-  aspect-ratio: 1/1;
-}
-
 #color-palette-list {
   display: flex;
   flex-direction: column;
@@ -109,4 +97,16 @@ ul span {
   flex-direction: column;
   flex-wrap: nowrap;
   text-align: center;
+}
+
+#gallery-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+#gallery-list figure {
+  background-color: #c4c0bb;
+  border-radius: 5px;
+  aspect-ratio: 1/1;
 }
