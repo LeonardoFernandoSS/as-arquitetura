@@ -120,11 +120,12 @@ h3 small {
 }
 
 .button {
-  padding: 1rem;
+  padding: 1rem 2rem;
   background-color: #333333;
   border: none;
   border-radius: 5px;
   color: #f4f0ea;
+  font-size: medium;
   text-decoration: none;
   cursor: pointer;
   display: flex;
@@ -155,14 +156,20 @@ fieldset {
   padding: 1rem;
   border-radius: 5px;
   border: 1px solid #444444;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 01rem;
   font-size: small;
 }
 
 legend {
   padding: 0 0.5rem;
+  white-space: nowrap;
+}
+
+fieldset>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 01rem;
 }
 
 input[type="text"],
@@ -207,6 +214,7 @@ input[type="checkbox"] {
 }
 
 .pagination > .button {
+  padding: 1rem;
   height: 2.5rem;
   font-size: small;
 }

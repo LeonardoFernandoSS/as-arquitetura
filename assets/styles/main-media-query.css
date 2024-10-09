@@ -49,8 +49,9 @@
     width: 100%;
   }
 
-  fieldset {
-    grid-template-columns: 1fr 1fr;
+  fieldset > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   footer {
